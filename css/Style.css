@@ -64,16 +64,17 @@
   }
 
 
-  /* Banner publicitario */
+  /* Estilos del Hero */
  
   .Hero{
     display: flex;
   }
 .Cont-Izq{
+  background-color: rgb(66, 66, 66);
   height: 50%;
   width: 100%;
   border: 20px solid rgb(66, 66, 66);
-  margin: 0px;
+  margin: px;
   margin-left: 150px;
   margin-right: 50px;
 }
@@ -81,6 +82,7 @@
 .imgCentral{ 
   border: 20px solid white;
   background-color: #ffffff;
+  margin-bottom: 20px;
   box-sizing: border-box;
  }
   
@@ -121,6 +123,8 @@ img{
   border: 15px solid white;
   background-color: #ffffff;
 }
+
+/* Estilos de los Banners*/
 
 .contenedor-derecho{
   width: 50%;
