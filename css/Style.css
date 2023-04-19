@@ -1,0 +1,138 @@
+*{margin: 0px;
+    padding: 0px;
+  }
+
+  /* Estilos Para el Header */
+
+  /* Logo UTN */
+
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    }
+    
+  .headerLogo{
+    font-family:'Lato';
+    justify-content: flex-start;
+    font-size: 2.5rem;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    padding-top: 40px;
+    margin: 150px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .logo{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-weight:600;
+    letter-spacing: 0.1rem;
+    }
+
+/* Nav Menú */
+
+  .headerMenu{
+    background-color: rgb(2, 2, 70);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 150px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    background-color:rgb(2, 2, 70);
+    padding: 20px;
+    font-family:'Lato';
+  }
+  .menu{
+    border: 20px solid rgba(100, 148, 237, 0) ;
+    cursor: pointer;
+    text-align: center;
+  }
+  a:hover{
+    background-color:#ffffff;
+    color: black 
+  }
+
+
+  /* Banner publicitario */
+ 
+  .Hero{
+    display: flex;
+  }
+.Cont-Izq{
+  height: 50%;
+  width: 100%;
+  border: 20px solid rgb(66, 66, 66);
+  margin: 0px;
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+.imgCentral{ 
+  border: 20px solid white;
+  background-color: #ffffff;
+ 
+
+}
+  
+.imgCentral img{
+  width: 800px;
+}
+
+
+img{
+  width: 400px;
+}
+
+.imgUno{ 
+  border: 15px solid white;
+  background-color: #ffffff;
+}
+.imgDos{
+  border: 15px solid white;
+  background-color: #ffffff;
+}
+.imgTres{
+  border: 15px solid white;
+  background-color: #ffffff;
+}
+.imgCuatro{
+  border: 15px solid white;
+  background-color: #ffffff;
+}
+
+.contenedor-derecho{
+  width: 50%;
+  margin: 0px;
+  margin-right: 150px;
+}
+
+.banner-uno{
+  background-color:grey;
+  width: 100%;
+  height: 13%;
+  border: 2px solid black;}
+
+  .banner-dos{
+    background-color: grey;
+    width: 100%;
+    height: 13%;
+    border: 2px solid black;
+  }
+
+  .banner-uno a{
+    font-size: 1.5rem;
+  }
+  .banner-dos a{
+    font-size: 1.5rem;
+  }
